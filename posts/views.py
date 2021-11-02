@@ -42,17 +42,6 @@ class PostingView(View):
         except EmptyPage:
             posts = paginator.page(paginator.num_pages)
 
-        category = Category.objects.get
-
-        post  = request.GET.get("post")
-            
-            q = Q()
-            
-            if post:
-                q &= Q(address__contains=post)
-            
-            post_filtered_posts = Post.objects.filter(q)
-
         result = [
             {
                 "user"            : post.user.id,
