@@ -9,3 +9,6 @@ class Post(models.Model):
 
     class Meta:
 	    db_table = 'posts'
+
+class Category(models.Model):
+    category        = models.CharField('Post.categor',max_length=45)        
