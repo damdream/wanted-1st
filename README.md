@@ -1,8 +1,11 @@
 # wanted-1st 기업 에이모 구현 과제
 
+
 💻 과제 진행자 : 김도담
 <br>
+<br>
 💻 사용 기술  : Python, Django, MongoDB
+<br>
 <br>
 💻 구현 기능
 <br>
