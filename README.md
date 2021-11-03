@@ -1,8 +1,11 @@
 # wanted-1st 기업 에이모 구현 과제
 
 💻 과제 진행자 : 김도담
+<br>
 💻 사용 기술 : Python, Django, MongoDB
+<br>
 💻 구현 기능
+
 User와 Post로 Comment로 App을 나누어 기능을 구현하였습니다.
 Restful API를 사용했습니다.
 User 계정 생성/ 로그인 시 bcrypt, jwt를 통해 인증/인가를 구현하였습니다.
